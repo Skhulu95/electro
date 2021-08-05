@@ -12,6 +12,7 @@ const MenuBar = () => {
                     <li><Link to="/AboutUs">About Us</Link></li>
                     <li><Link to="/ContactUs">Contact Us</Link></li>
                     <li><Link to="/Shop">Shop</Link></li>
+                    <li><Link to="/CommentsPage">Comments</Link></li>
                     <li><Link to="/Cart">CART</Link></li>       
                 </ul>
 

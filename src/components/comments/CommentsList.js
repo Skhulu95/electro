@@ -5,7 +5,7 @@ import classes from './CommentsList.module.css';
 
 const CommentList = (props) => {
   return (
-    <ul className={classes['comments-list']}>
+    <ul className={classes['comments-list']} id="comments-list">
       {props.comments.map((comment) => (
         <Comment
           key={comment.id}

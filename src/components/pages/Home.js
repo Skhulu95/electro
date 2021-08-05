@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Testimonials from '../misc/Testimonials'
+// import Testimonials from '../misc/Testimonials'
 // import Pricing from '../misc/Pricing'
 import Header from '../misc/Header'
 
@@ -12,15 +12,9 @@ const Home = () => {
       <br/>
             <Header />
             {/* <Pricing /> */}
-            <Testimonials />
+            {/* <Testimonials /> */}
         </React.Fragment>
     )
 }
 
 export default Home;
-
-/*
-            <Pricing />
-            <Testimonials />
-
-*/

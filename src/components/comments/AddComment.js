@@ -22,7 +22,7 @@ function AddComment(props) {
   }
 
   return (
-    <form onSubmit={submitHandler}>
+    <form onSubmit={submitHandler} id="comments">
       <div className={classes.control}>
         <label htmlFor='name'>Name</label>
         <input type='text' id='name' ref={nameRef} />

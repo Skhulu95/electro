@@ -71,13 +71,17 @@ function CommentsPage() {
 
   return (
     <React.Fragment>
+      <br/>
+      <br/>
+      <br/>
+      <section>{content}</section>
       <section>
         <AddComment onAddComment={addCommentHandler} />
       </section>
       <section>
         <button onClick={fetchCommentsHandler}>Fetch Comments</button>
       </section>
-      <section>{content}</section>
+  
     </React.Fragment>
   );
 }
