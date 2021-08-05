@@ -1,0 +1,175 @@
+/* header */
+#header-home {
+	min-height: calc(90vh - 90px);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../../assets/products.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	
+}
+.height-90 {
+	min-height: calc(100vh - 90px);
+}
+
+.banner h1 {
+	border-top: 6px dotted #d2d7df;
+	border-bottom: 6px dotted #d2d7df;
+	animation: fromLeft;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.primary-color {
+	color: #e77728;
+}
+
+.color-color {
+	color: whitesmoke;
+}
+
+@keyframes fromLeft {
+	0% {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	50% {
+		transform: translateX(30px);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.main-btn {
+	color: #e77728;
+	font-size: 2rem;
+	border: 2px solid #d2d7df;
+	transition: all is ease-in-out;
+}
+
+.main-btn:hover {
+	color: #242424;
+	border: 2px solid #c9c1ac;
+	background: #c9c1ac;
+}
+
+.estratweni-btn {
+	animation: fromRight;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fromRight {
+	0% {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	50% {
+		transform: translateX(-30px);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.header-link {
+	display: inline-block;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	background: #c9c1ac;
+	border-radius: 10px;
+	transition: all 2s ease;
+	animation: fromBottom;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes fromBottom {
+	0% {
+		transform: translateY(-10px);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+/* navbar
+.navbar {
+	background: #c9c1ac;
+	padding: 0px 30px;
+	transition: all 1s ease;
+}
+.navbar-background {
+    padding: 5px 20px;
+    position: "fixed-top";
+}
+.navbar-brand {
+	font-size: 30px;
+	transition: all 1s ease;
+}
+.navbar-brand:hover {
+	color: #242424;
+}
+.nav-link {
+	color: #242424;
+	text-decoration: none;
+	transition: all 2s ease;
+	font-size: 23px;
+}
+.nav-link:hover {
+	color: #e77728;
+}
+
+.nav-btn {
+	background: transparent;
+	color: #e77728;
+	border: 2px solid #e77728;
+	font-size: 23px;
+	transition: all 2s ease;
+}
+.nav-btn:hover {
+	color: #242424;
+	border: 2px solid #242424;
+	transform: rotate(10deg);
+}
+.toggler-btn {
+	border: 2px solid #e77728;
+	padding: 5px;
+	transition: all 2s ease;
+} */
+.bar {
+	width: 30px;
+	height: 3px;
+	margin: 5px;
+	background: #e77728;
+	transition: all 0.5s ease;
+}
+
+.change .bar1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	transform: rotate(45deg) translate(-5px, -8px);
+}
+
+
