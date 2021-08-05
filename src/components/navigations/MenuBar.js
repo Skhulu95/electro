@@ -46,7 +46,7 @@ const MenuBar = () => {
             <Link to="/Shop">Shop</Link>
           </li>
           <li>
-            <Link to="/Testimonies">Testimonies</Link>
+            <Link to="/CommentsPage">Comments</Link>
           </li>
           <li>
             <Link to="/Cart"><CartButton/></Link>

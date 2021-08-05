@@ -1,4 +1,4 @@
-.testimony {
+.comment {
 	margin: 1rem;
 	padding: 1rem;
 	background-color: #230052;
@@ -8,12 +8,12 @@
 	color: white;
       }
       
-      .testimony h2 {
+      .comment h2 {
 	font-size: 2rem;
 	color: #f7e702;
       }
       
-      .testimony h3 {
+      .comment h3 {
 	color: #eccf77;
 	margin: 0;
 	font-size: 1rem;
